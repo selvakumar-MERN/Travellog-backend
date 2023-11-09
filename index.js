@@ -29,7 +29,7 @@ catch(error){
 const adminRouter= require('./routes/admin')
 const userRouter=require('./routes/user')
 const auth= require('./routes/auth')
-const passportsetup= require('./config/passport')
+
 
 app.use('/user',userRouter)
 app.use('/admin',adminRouter)
